@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <title> Hora de codar</title>
+        <script>
+         
+
+         //Enunciado
+
+        /*1 Exercício
+                 Escreva um programa em Javascript e crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.*/
+
+         var nome_do_carro = "Fusca";
+         
+         alert(nome_do_carro);
+       
+         console.log(nome_do_carro);
+
+
+
+
+
+         /*2 Exercício
+         Escreva um programa em Javascript em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".*/
+
+         var NomeDoUsuario = prompt("Por favor, digite o seu nome:");
+
+         alert("Olá, " + NomeDoUsuario + ".");
+
+
+
+
+         /*3 Exercício
+         Escreva um programa em Javascript em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".*/
+         
+         var NomeDoUsuario = prompt("Por favor, digite o seu nome:");
+         var IdadeDoUsuario = parseInt(prompt("Por favor, digite sua idade"));
+
+         alert("Olá " + NomeDoUsuario + ", sua idade é " + IdadeDoUsuario + ".");
+         document.write("Olá, " + NomeDoUsuario + ", sua idade é " + IdadeDoUsuario + "." + "<br>");
+         console.log("Olá, " + NomeDoUsuario + ", sua idade é " + IdadeDoUsuario + "." + "<br>");
+
+
+
+         /*4 Exercício
+         Considerando a figura acima, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável. */
+        
+
+         //ÁREA DO RETÂNGULO
+
+         alert("Agora vamos calcular as áreas de algumas figuras!");
+         
+         alert("Agora iremos calcular a área do Retângulo.");
+
+         var Base_Retangulo = parseInt(prompt(" digite o valor da base"));
+
+         var Altura_Retangulo = parseInt(prompt("Digite o valor da altura"));
+
+         var Area_Retangulo = Base_Retangulo*Altura_Retangulo;
+
+         var Texto_Retangulo = "A área do Retângulo é igual a " + Area_Retangulo + ".";
+
+         alert(Texto_Retangulo);
+         document.write(Texto_Retangulo  + "<br>");
+         console.log(Texto_Retangulo);
+
+
+         //ÁREA DO QUADRADO
+
+         alert("Agora iremos calcular a área do Quadrado.");
+
+
+         var Lado = parseInt (prompt("Dígite o valor do lado do quadrado"));
+         
+         var Area_Quadrado = Lado ** 2;
+
+         var Texto_Quadrado = "A área do Quadrado é igual a " + Area_Quadrado + ".";
+
+         alert(Texto_Quadrado);
+         document.write(Texto_Quadrado + "<br>");
+         console.log(Texto_Quadrado);
+
+
+         //ÁREA DO LOSANGO
+
+         alert("Agora iremos calcular a área do Losango.");
+         
+          var Diagonal_maior = parseInt(prompt("Digite o valor da diagonal maior")) ;
+         
+          var Diagonal_menor = parseInt(prompt("Digite o valor da diagonal menor")) ;
+         
+          var Area_Losango =    (Diagonal_maior * Diagonal_menor) / 2;
+
+          var Texto_Losango = "A área do Losango é igual a " + Area_Losango + ".";
+
+          alert(Texto_Losango);
+          document.write(Texto_Losango + "<br>");
+          console.log(Texto_Losango);
+
+
+
+
+
+
+         //ÁREA DO TRAPÉZIO
+         
+         alert("Agora iremos calcular a área do Trapézio.");
+
+
+          var Base_maior = parseInt(prompt("Digite o valor da base maior"));
+
+          var Base_menor = parseInt(prompt("Digite o valor da base menor"));
+         
+          var Altura_Trapezio = parseInt(prompt("Digite o valor da altura "));
+         
+          var Area_Trapezio = ((Base_maior + Base_menor) * Altura_Trapezio) / 2;
+
+          var Texto_Trapezio = "A área do Trapezio é igual a " + Area_Trapezio + ".";
+
+          alert(Texto_Trapezio);
+          document.write(Texto_Trapezio + "<br>");
+          console.log(Texto_Trapezio);
+         
+
+
+         //ÁREA DO PARALELOGRAMO
+
+         alert("Agora iremos calcular a área do Paralelogramo.");
+
+
+         var Base_Paralelogramo = parseInt(prompt("Digite o valor da base"));
+
+         var Altura_Paralelogramo = parseInt(prompt("Digite o valor da altura"));
+         
+         var Area_Paralelogramo = Base_Paralelogramo * Altura_Paralelogramo;
+
+         var Texto_Paralelogramo = "A área do Paralelogramo é igual a " + Area_Paralelogramo + ".";
+
+         alert(Texto_Paralelogramo);
+         document.write(Texto_Paralelogramo + "<br>");
+         console.log(Texto_Paralelogramo);
+
+
+         //ÁREA DO TRIÂNGULO
+
+         alert("Agora iremos calcular a área do Triângulo.");
+
+         
+         var Base_Triangulo = parseInt(prompt("Digite o valor da da base")) ;
+         
+         var Altura_Triangulo = parseInt(prompt("Digite o valor da altura")) ;
+         
+         var Area_Triangulo =    (Base_Triangulo * Altura_Triangulo) / 2;
+
+         var Texto_Triangulo = "A área do Triângulo é igual a " + Area_Triangulo + ".";
+
+         alert(Texto_Triangulo);
+         document.write(Texto_Triangulo + "<br>");
+         console.log(Texto_Triangulo);
+
+         
+         //ÁREA DO CÍRCULO
+
+         alert("Agora iremos calcular a área do Círculo.");
+
+
+         var π = 3.14
+
+         var Raio = parseInt(prompt("Digite o valor do raio"));
+         
+         var Area_Circulo = π * (Raio ** 2);
+
+         var Texto_Circulo = "A área do Circulo é igual a " + Area_Circulo + ".";
+
+         alert(Texto_Circulo);
+         document.write(Texto_Circulo + "<br>");
+         console.log(Texto_Circulo);
+
+
+        </script>
+    </head>
+</html>
